@@ -9,7 +9,7 @@
   <!-- Bootstrap CSS -->
   <link href="css/bootstrap5.0.1.min.css" rel="stylesheet" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/datatables-1.10.25.min.css" />
-  <title>Server Side CRUD Ajax Operations</title>
+  <title>CRUD Ajax Operations</title>
   <style type="text/css">
     .btnAdd {
       text-align: right;
