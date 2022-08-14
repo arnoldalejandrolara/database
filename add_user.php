@@ -6,8 +6,11 @@ $mobile = $_POST['mobile'];
 $city = $_POST['city'];
 
 $sql = "INSERT INTO `users` (`username`,`email`,`mobile`,`city`) values ('$username', '$email', '$mobile', '$city' )";
+
 $query= mysqli_query($con,$sql);
+
 $lastId = mysqli_insert_id($con);
+
 if($query ==true)
 {
    

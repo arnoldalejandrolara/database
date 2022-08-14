@@ -7,6 +7,7 @@ $city = $_POST['city'];
 $id = $_POST['id'];
 
 $sql = "UPDATE `users` SET  `username`='$username' , `email`= '$email', `mobile`='$mobile',  `city`='$city' WHERE id='$id' ";
+
 $query= mysqli_query($con,$sql);
 $lastId = mysqli_insert_id($con);
 if($query ==true)
